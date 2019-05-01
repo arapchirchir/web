@@ -1,0 +1,199 @@
+
+@media only screen and (max-width: 600px){
+    /*this are for small devices such as the mobile phones*/
+        .slides img{
+            height: 210px;
+        }
+        .description{
+            width: 88%;
+            font-size: 14px;
+            height: 20px;
+            bottom: 5px;
+        }
+        .pictorial{
+            height: 210px;
+        }
+        #still_images{
+            height: 210px;
+        }
+        #still_images img{
+            height: 103px;
+        }
+
+        .information{
+            display: inline-block;
+            width: 97%;
+        }
+        .information #notice, .information #news{
+            width: 65.5%;
+            display: block;
+            height: 110px;
+            overflow-y: scroll;
+            cursor: pointer;
+        }
+        .information #comments{
+            width: 33%;
+            height: 220px;
+            overflow-y: scroll;
+            float: left;
+        }
+/*prospectus responses*/  
+.prospectus #mission h1, .prospectus #vision h1, .prospectus #core_values h1, .prospectus #community h1 {
+    font-size: 15px;
+}
+.prospectus #mission, .prospectus #vision{
+    width: 49%;
+    display: inline-block;
+}
+.prospectus #core_values, .prospectus #community{
+    display: inline-block;
+    width: 49%;
+}
+.prospectus img{
+    height: 150px;
+}
+.contacts{
+    display: block;
+    width: 100%;
+}
+        /*end of prospectus responses*/
+    }
+
+@media only screen and (min-width: 600px){
+    .description{
+            width: 88%;
+            font-size: 18px;
+            height: 25px;
+            bottom: 6px;
+        }
+    .pictorial{
+        height: 310px;
+    }
+    #still_images{
+        height: 310px;
+    }
+    #still_images img{
+        height: 153px;
+    }
+    .slides img{
+        height: 310px;
+    }
+
+    .information{
+        display: inline-block;
+        width: 97%;
+        height: 255px;
+    }
+    .information #notice{
+        width: 38.5%;
+        height: 250px;
+    }
+    .information #news{
+        width: 30.5%;
+        height: 250px;
+    }
+    .information #comments{
+        width: 27.8%;
+        height: 250px;
+    }
+
+    /*prospectus responses*/  
+    .prospectus #mission h1, .prospectus #vision h1, .prospectus #core_values h1, .prospectus #community h1{
+    font-size: 18px;
+}
+.prospectus #mission, .prospectus #vision{
+    width: 49%;
+    display: inline-block;
+}
+.prospectus #core_values, .prospectus #community{
+    display: inline-block;
+    width: 49%;
+}
+.prospectus img{
+    height: 150px;
+}
+        /*end of prospectus responses*/
+}
+
+@media only screen and (min-width: 768px){
+/*small devices potrait tablets and lagrge phones 600px and up*/
+.pictorial{
+    height: 420px;
+}
+#still_images{
+    height: 420px;
+}
+#still_images img{
+    height: 208px;
+}
+.slides img{
+    height: 420px;
+}
+
+.information{
+    display: inline-block;
+    width: 97%;
+}
+.information #notice{
+    width: 38.5%;
+}
+.information #news{
+    width: 30.5%
+}
+.information #comments{
+    width: 28.8%;
+}
+
+/*prospectus responses*/  
+.prospectus #mission h1, .prospectus #vision h1, .prospectus #core_values h1, .prospectus #community h1{
+    font-size: 18px;
+}
+.prospectus #mission, .prospectus #vision, .prospectus #core_values, .prospectus #community{
+    width: 24.5%;
+    display: inline-block;
+}
+.prospectus img{
+    height: 150px;
+}
+        /*end of prospectus responses*/
+
+
+    .information{
+        display: inline-block;
+        width: 97%;
+        height: 355px;
+    }
+    .information #notice{
+        width: 38.5%;
+        height: 350px;
+    }
+    .information #news{
+        width: 30.5%;
+        height: 350px;
+    }
+    .information #comments{
+        width: 27.8%;
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+/*for laptopts and desktops*/
+.information{
+    display: inline-block;
+    width: 97%;
+}
+.information #notice{
+    width: 38.6%;
+}
+.information #news{
+    width: 30.8%
+}
+.information #comments{
+    width: 28.5%;
+}
+}
+
+@media only screen and (min-width: 1200px){
+/*for large desktops with more than 1200px*/
+}

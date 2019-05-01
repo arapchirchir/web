@@ -1,0 +1,64 @@
+/*-------------------------------------End of Navigation Bar Styling---------------------------------*/
+.pictorial{
+    margin: 0 1.5%;
+    height: 400px;
+    width: 96.8%;
+    display: inline-block;
+}
+#still_images{
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+#still_images img{
+    height: 198px;
+    width: 100%;border-radius: 10px;
+}
+/*fading effects*/
+#stage{
+    width: 69.5%;
+    height: 400px;
+    float: right;
+}
+#stage .slides{
+    position: absolute;
+    width: 68.8%;
+}
+.slides img{
+    width: 98%;
+    height: 400px;
+    border-radius: 10px;
+}
+.slides:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 6s;
+    animation-duration: 4s;
+    z-index: 20;
+  }
+.slides:nth-of-type(2) {
+    z-index: 10;
+  }
+.slides:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+  .description{
+      height: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 20px;
+      background-color: green;
+      color: white;
+      text-align: left;
+      position: absolute;
+      width: 70%;
+      padding: 8px 8px;
+      bottom: 8px;
+      margin: 0 1.5%;
+      border-top-right-radius: 50px;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
